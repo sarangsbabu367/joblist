@@ -18,6 +18,7 @@ Server part has the below features.
 * Store for job, user (to handle DB interations of job, user resources)
 * Row level security.
 * Util for setting up db and inserting initial user & job data.
+* Error handling.
 
 ### Installation
 
@@ -86,7 +87,21 @@ ps: Please ensure a `.env` file is created and all necessary values are given. A
 
 ### Example
 
+#### Get all jobs
+
 ![Alt text](jobs_request.png)
+
+#### Apply for a job
+
+![Alt text](job_apply.png)
+
+#### Withdraw from an applied job
+
+![Alt text](withdraw.png)
+
+#### Apply using non existing tenant id
+
+![Alt text](invalid_tenant_id.png)
 
 ## Client
 
